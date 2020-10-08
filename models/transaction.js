@@ -22,4 +22,6 @@ const transactionSchema = new Schema(
 
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
-module.exports = Transaction;
+module.exports = Transaction; //name of collection => mongodb atlas collection name
+
+//budget is database name
